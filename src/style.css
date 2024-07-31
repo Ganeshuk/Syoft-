@@ -1,0 +1,102 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for forms and dashboard */
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+  }
+  
+  /* Heading style */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+  
+  /* Label and input field styles */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Dashboard-specific styles */
+  .dashboard-info {
+    text-align: center;
+  }
+  
+  .dashboard-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    button {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+  
